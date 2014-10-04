@@ -12,6 +12,12 @@
 </head>
  
 <body>
- 
+ <?php 
+    $in = "".$_GET['user'];
+    echo "<h1>Hi</h1>";
+    echo "<h1>".$in."</h1>";
+    phpinfo();
+    
+ ?>
 </body>
 </html>
