@@ -5,7 +5,7 @@
  */
 $(document).ready(function() {
 	
-  var top = 280;
+  var top = 200;
   $(window).scroll(function() {
     if($(this).scrollTop() > top) {
       $('.navbar').addClass('navbar-fixed-top');

@@ -1,10 +1,11 @@
+<body>
 <!-- HEADER bild -->
 <div class="container">
     <img id="logo" src="img/logo_01.png"/>
 </div>
 
 <!-- NAVIGATION für alle Seiten -->
-<div class="navbar navbar-default  navbar-static-top navbar-inverse " role="navigation">
+<div class="navbar navbar-default  navbar-inverse " role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
@@ -18,23 +19,28 @@
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 			
-				<li class="active"><a href="#">Startseite</a></li>
+				<li><a href="?id=home">Startseite</a></li>
 				<li><a href="?id=about">Über Uns</a></li>
+				
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Bierinfos <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
+					    
 						<li><a href="#">Was ist Bier?</a></li>
 						<li><a href="#">Geschichtliches</a></li>
 						<li class="divider"></li>
 						<li class="dropdown-header">Biersorten</li>
 						<li><a href="#">Weizen</a></li>
 						<li><a href="#">Pils</a></li>
+						
 					</ul></li>
+					
 				<li><a href="?id=events">Events</a></li>				
 				<li><a href="?id=pegel">Pegel Rechner</a></li>
-				<li><a href="?id=news">Newsletter</a></li>
+				<li><a href="?id=newsletter">Newsletter</a></li>
 				<li><a href="?id=contact">Kontakt</a></li>
 			</ul>
-		</div>
-		<!--/.nav-collapse -->
+		</div> <!--/.nav-collapse -->
 	</div>
 </div>
+
+       
