@@ -1,5 +1,10 @@
+<!-- HEADER bild -->
+<div class="container">
+    <img id="logo" src="img/logo_01.png"/>
+</div>
+
 <!-- NAVIGATION für alle Seiten -->
-<div class="navbar navbar-default " role="navigation">
+<div class="navbar navbar-default  navbar-static-top navbar-inverse " role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"

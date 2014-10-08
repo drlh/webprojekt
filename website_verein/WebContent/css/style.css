@@ -1,12 +1,24 @@
 body {
 	margin: 0 0;
+	min-height: 2000px;
 }
 
+#logo {
+	max-width: 100%;
+}
+
+.navbar {
+	padding-top: 20px;
+	min-height: 90px;
+}
+
+.navbar-fix {
+	position: fixed;
+	top: 0;
+}
 .footer {
 	padding-top: 19px;
 	color: #777;
 	border-top: 1px solid #e5e5e5;
 }
-
-
 
