@@ -1,5 +1,7 @@
+<!-- FOOTER für alle Seiten -->
+
 <div class="container">
-<div clas="footer">
-	Die coolsten
+<div class="footer">
+	copyright
 </div>
 </div>
