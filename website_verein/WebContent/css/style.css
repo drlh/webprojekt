@@ -16,6 +16,15 @@ body {
 	position: fixed;
 	top: 0;
 }
+
+/* ABOUT Page*/
+#about-leo {
+	display: none;
+}
+#about-yannick {
+	display: none;
+}
+
 .footer {
 	padding-top: 19px;
 	color: #777;
