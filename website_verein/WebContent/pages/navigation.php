@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
-    <link href="style/bootstrap.css" rel="stylesheet">
-	
 
-  </head>
-  <body>
-    
-   <div class="container">
+<div class="container">
 
 	<!-- Static navbar -->
 	<div class="navbar navbar-default" role="navigation">
@@ -57,7 +44,4 @@
 
 </div>
 <!-- /container -->
-    <script src="js/bootstrap.js" type="text/javascript"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
-  </body>
-</html>
+
