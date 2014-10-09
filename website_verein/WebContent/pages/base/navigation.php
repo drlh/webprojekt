@@ -1,11 +1,11 @@
 <body>
 <!-- HEADER bild -->
-<div class="container">
-    <img id="logo" src="img/logo_01.png"/>
-</div>
+
+    <img id="logo" src="img/banner.jpg"/>
+
 
 <!-- NAVIGATION für alle Seiten -->
-<div class="navbar navbar-default  navbar-inverse " role="navigation">
+<div class="navbar navbar-default navbar-inverse mainmenu" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
@@ -20,7 +20,7 @@
 			<ul class="nav navbar-nav navbar-right">
 			
 				<li><a href="?id=home">Startseite</a></li>
-				<li><a href="?id=about">Über Uns</a></li>
+				<li><a href="?id=about">�ber Uns</a></li>
 				
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Bierinfos <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">

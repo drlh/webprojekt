@@ -6,12 +6,12 @@ $(document).ready(function() {
 	 * Diese Funktion ermöglicht es beim Scrollen der Seite nach dem Bild die
 	 * Navigation an den oberen Rand anzudocken
 	 */
-	var top = 200;
+	var top = 150;
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > top) {
-			$('.navbar').addClass('navbar-fixed-top');
+			$('.navbar').addClass('navbar-fixed-top').removeClass("mainmenu");
 		} else {
-			$('.navbar').removeClass('navbar-fixed-top');
+			$('.navbar').removeClass('navbar-fixed-top').addClass("mainmenu");
 		}
 	});
 	
